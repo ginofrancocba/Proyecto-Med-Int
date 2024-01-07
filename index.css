@@ -67,22 +67,6 @@
   border-color: var(--grey-layer) ;
 }
 
-h1 {
-    color: blue;
-    text-align: center;
-}
-
-p {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-}
-
-/* nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  } */
-  
   nav li {
     display: inline-block;
     margin-right: 10px;
@@ -98,4 +82,14 @@ p {
     color: #fff;
     background-color: var(--salmon-footer);
   }
+
+  h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
   
