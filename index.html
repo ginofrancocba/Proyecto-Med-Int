@@ -6,9 +6,10 @@
     <title>MedIntegrativa</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <header>
+<body class="fondo">
+  <header class="container">
     <nav>
+      <img className="logo" src='images/logo.jpeg' alt='Logo' />
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="profesionales.html">Profesionales</a></li>
@@ -19,11 +20,44 @@
     </nav>
   </header> 
   <section>        
-    <h1>Hola, mundo!</h1>
-    <p>Este es un proyecto básico con HTML5, CSS y JavaScript.</p>
+    <h1 className="h1-home">Bienvenidos al centro de medicina integrativa </h1>
+    <img className="logo" src='images/Frente2.jpg' alt='img Frente2' />
+    <p className="lead-text-center"> El Secreto de una Piel Resplandeciente. 
+      En nuestra clínica, la salud estética dermatológica es más que una meta; es una pasión. 
+      Te brindamos una experiencia única donde la ciencia dermatológica y las terapias naturales 
+      se fusionan para rejuvenecer tu piel.
+      Desde tratamientos antienvejecimiento hasta soluciones para problemas dermatológicos 
+      específicos, estamos comprometidos a ayudarte a lograr una piel que refleje vitalidad y 
+      bienestar.
+      </p>
   </section> 
   <footer> 
-    <a href="contacto.html">Contacto</a>
+    <a href="contacto.html">Contactanos</a>
+    <h3>Tambien nos encontramos en redes sociales</h3>
+    <div className="icons">  
+    <a href="https://www.facebook.com/profile.php?id=" alt="Abrir facebook" target="_blank" ><img src='images/icon1-facebook.png' /></a>
+    <a href="https://instagram.com/dravivianacellutti?igshid=MzRlODBiNWFlZA==" alt="Abrir instagram" target="_blank" ><img src='images/icon2-instagram.png' /></a>
+    <a href="https://api.whatsapp.com/send?phone=+543513335473&text=Me contacto desde la web: info...?" alt="Abrir WhatsApp" target="_blank" ><img src='images/icon3-whatsapp.png'/></a> 
+    </div>
+    <div className="datos-ubicacion-titulo" >
+      <ul>
+        <li className="li-horario">Nuestros horarios</li>
+        <li className="li-direccion">Nos encontramos</li>
+        <li className="li-telefono">Telefono de contacto</li>
+    </ul>
+    </div>
+    <div className="datos-ubicacion" >
+      <ul className="ul-ubicacion">
+        <li className="li-1">Lunes a Viernes: 8 AM a 20 PM </li>
+        <li className="li-2">Roma 264 Barrio Gral Paz X5000 Córdoba</li>
+        <li className="li-3">Whatsapp (351) 3335473</li>
+    </ul>
+    </div>
+    <div  className="copyright">
+      <p className="p-footer">Copyright© 2023 www.medicinaintegrativacba.com</p>
+      <p className="p-footer">Todos los derechos reservados By NAOKI solutions</p>
+      <img className="logo-footer" src='images/logoNaoky.png' alt='Logo Naoki' />
+    </div>
   </footer>   
     <script src="script.js"></script>
 </body>
