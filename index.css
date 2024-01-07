@@ -43,6 +43,7 @@
     background-color: var(--grey-header);
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
     border: px solid var(--semi-oscuro) ;
+    padding-bottom: 0px; /* Añade un espacio inferior de 50px */
  }
 
   .logo {
@@ -60,7 +61,7 @@
   align-items: center;
   justify-content:space-around;
   font-size: 20px;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 20px 20px;
   padding: 4px 50px 6px 0px;
   border-bottom-style: solid ;
   border-bottom-width: 1px ;
@@ -83,13 +84,44 @@
     background-color: var(--salmon-footer);
   }
 
-  h1 {
-    color: blue;
+  .h1-home{
+    display: flex;
+    font: 2rem/2rem "Open Sans", sans-serif;
+    width: 100vw;
+    height: 17vh;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    margin: 17% 0% 0% 0%;
+    padding: 4% 3% 4% 2%;
+    color: var(--semi-oscuro);
+    border-bottom: 2px solid var(--semi-oscuro); 
+    background-color: var(--salmon);
 }
 
-p {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
+.front-img {
+  display: flex;
+  filter: contrast(110%);
+  width: 70vw;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 5% 1% 14%;
+  border-radius: 5px;
+  box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
+  border: 1px solid var(--semi-oscuro) ;
+}
+
+.lead-text-center {
+  font: 1rem/1rem "Open Sans", sans-serif;
+  display: flex;
+  width: 90vw;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.5;
+  margin: 5% 0% 5% 2.5%;
+  padding: 1% 1% 2% 2%;
+  color: var(--semi-oscuro); 
 }
   
