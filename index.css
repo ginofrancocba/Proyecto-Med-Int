@@ -92,8 +92,8 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin: 17% 1% 1% 1%;
-    padding: 4% 3% 4% 2%;
+    margin: 17% 0% 0% 0%;
+    padding: 4% 0% 4% 0%;
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
     background-color: var(--salmon);
@@ -120,8 +120,8 @@
   align-items: center;
   text-align: center;
   line-height: 1.5;
-  margin: 5% 0% 5% 2.5%;
-  padding: 1% 1% 2% 2%;
+  margin: 4% 0% 3% 0%;
+  padding: 1% 0% 0% 2%;
   color: var(--semi-oscuro); 
 }
   
@@ -159,7 +159,7 @@
 
 .rrss {
   display: flex;
-  width: 50%;
+  width: 40%;
   color: var(--oscuro);
   padding: 0% 0% 0% 0%;
   margin: 2% 0% 0% 10%;
@@ -174,7 +174,7 @@ ul {
 .icons {
   display: inline-flex;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: auto ; 
 }
 
@@ -183,13 +183,13 @@ ul {
   height: auto;
   text-align: center;
   padding: 30% 30% 15% 30%;  
-  margin: 10% 0% 0% 10%;
+  margin: 20% 0% 0% 0%;
 }
 
 .icons img:hover {
   display: inline-flex;
   cursor:crosshair;
-  width: 55px;
+  width: 60px;
   opacity: 1;
   filter: contrast(190%);
   object-fit: cover;
@@ -204,7 +204,7 @@ a {
 
 .datos-ubicacion-titulo {
   display: flex;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   color: var(--oscuro);
   padding: 0% 0% 0% 0%;
@@ -213,7 +213,7 @@ a {
 
 .ul-hdt {
   display: inline-flex;
-  width: 100%;
+  width: 100vw;
   margin: 1% 1% 1% 0%;
 }
 
@@ -259,14 +259,14 @@ a {
 .ul-ubicacion {
   font: 0.8rem/1rem "Open Sans", sans-serif;
   display: inline-flex;
-  width: 100%;
+  width: 100vw;
   padding: 0% 0% 0% 0%;
   margin: 0% 0% 0% 0%;
 }
 
 .datos-ubicacion {
   display:flex;
-  width: 100%;
+  width: 100vw;
   align-items: center;
   color: var(--oscuro);
   padding: 0% 0% 0% 0%;
@@ -276,16 +276,16 @@ a {
 .copyright {
   display: flex;
   align-items: center;
-  width: 100%;
-  height: 0%;
+  width: 90vw;
+
   color: var(--oscuro);
   padding: 0% 0% 0% 0%;
-  margin: 0% 0% 0% 28%;
+  margin: 0% 0% 0% 38%;
 }
 
 .p-footer {
   display: flex;
-  width: 30%;
+  width: 27vw;
   font: 0.8rem/1rem "Open Sans", sans-serif;
   padding: 0% 0% 0% 0%;
   margin: 0% 0% 0% 0%;
