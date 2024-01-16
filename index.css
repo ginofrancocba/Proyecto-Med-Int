@@ -52,8 +52,8 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100vw;
-    height: 30vh;
+    width: 80vw;
+    height: 50vh;
     background-color: var(--grey-header);
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
     border: px solid var(--semi-oscuro) ;
