@@ -304,3 +304,17 @@ a {
   box-shadow: var(--semi-oscuro) 0px 2px 95px, var(--azul-hover) 0px 5px 10px;
   border: 1px solid var(--azul-fran);
 }
+
+.map-button {
+  position: fixed; /* Esto hace que el elemento se mantenga en la misma posición */
+  bottom: 20px; /* Esto define la distancia desde el borde inferior de la pantalla */
+  right: 20px; /* Esto define la distancia desde el borde derecho de la pantalla */
+  z-index: 1000; /* Esto hace que el elemento se muestre por encima de los demás */
+}
+
+.map-button img {
+  width: 50px; /* Esto define el ancho del botón */
+  height: 50px; /* Esto define el alto del botón */
+  border-radius: 50%; /* Esto hace que el botón tenga forma circular */
+  box-shadow: var(--semi-oscuro) 0px 0px 15px; /* Esto le da un efecto de sombra al botón */
+}
