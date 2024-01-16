@@ -37,6 +37,11 @@
     box-sizing: border-box;
 }
 
+body {
+  background: linear-gradient(-65deg, var(--semi-oscuro) 0%, var(--negro) 100% );
+  background-size: cover;
+  filter: contrast(100%);
+}
 
   .container {
     position: fixed;
