@@ -111,7 +111,7 @@
   height: auto;
   justify-content: center;
   align-items: center;
-  margin: 10% 5% 1% 14%;
+  margin: 10% 5% 1% 17%;
   border-radius: 5px;
   box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
   border: 1px solid var(--semi-oscuro) ;
@@ -120,12 +120,13 @@
 .lead-text-center {
   font: 1rem/1rem "Open Sans", sans-serif;
   display: flex;
-  width: 99vw;  
+  width: 70vw;  
   align-items: center;
   text-align: center;
+  justify-content: center;
   line-height: 1.5;
-  margin: 3% 0% 3% 0%;
-  padding: 1% 0% 0% 0%;
+  margin: 3% 0% 3% 13%;
+  padding: 3% 0% 2% 0%;
   color: var(--semi-oscuro); 
 }
   
@@ -140,7 +141,7 @@
 }
 
 .gral-footer {
-  
+
   width: 100vw;
 }
 
