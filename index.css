@@ -145,7 +145,8 @@
   width: 100vw;
 }
 
-.btn-footer {
+.btn-footer,
+botones {
   display: flex;
   justify-content: center;
   align-items: center;
