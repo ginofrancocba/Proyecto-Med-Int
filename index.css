@@ -320,7 +320,7 @@ a {
   box-shadow: var(--semi-oscuro) 0px 0px 15px; /* Esto le da un efecto de sombra al botón */
 }
 
-.map iframe {
+/* .map iframe {
   display: block;
   width: 60vw;
   height: 60vh;
@@ -331,4 +331,4 @@ a {
 
 .map iframe:hover {
   border-color: 2px var(--semi-oscuro);
-}
+} */
