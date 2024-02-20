@@ -311,20 +311,21 @@ a {
   bottom: 30px; /* Esto define la distancia desde el borde inferior de la pantalla */
   right: 30px; /* Esto define la distancia desde el borde derecho de la pantalla */
   z-index: 1000; /* Esto hace que el elemento se muestre por encima de los demás */
-  border: transparent;
+
 }
 
 .map-button img {
   width: 40px; /* Esto define el ancho del botón */
   height: 40px; /* Esto define el alto del botón */
   border-radius: 50%; /* Esto hace que el botón tenga forma circular */
-  box-shadow: var(--semi-oscuro) 0px 0px 15px; /* Esto le da un efecto de sombra al botón */
-  border: transparent;
+  box-shadow: var(--semi-oscuro) 0px 0px 25px; /* Esto le da un efecto de sombra al botón */
 }
 
 .map-button img:hover {
   cursor:pointer;
-  
+  border: transparent;
+  width: 41px; 
+  height: 41px; 
 }
 
 #btn-google-maps img {
