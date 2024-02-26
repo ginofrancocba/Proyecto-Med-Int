@@ -145,8 +145,7 @@
   width: 100vw;
 }
 
-.btn-footer,
-botones {
+.btn-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,14 +153,15 @@ botones {
   background-color:var(--grey-button);
   width: 8em;
   text-decoration: none;
-  margin: 3% 0% 0% 44%;
+  margin: 3% 3% 0% 44%;
   padding: 1%;
-  border-radius: 5px;
-  box-shadow: var(--grey) 0px 0px 95px, var(--azul) 0px 1px 7px;  
+  border-radius: 3px;
+  border: 0.5px solid var(--app-grey);  
+  box-shadow: var(--app-grey) 0px 0px 4px, var(--app-grey) 0px 4px 11px;
 }
 
 .btn-footer:hover {
-  border-color: 5px var(--azul-fran);
+  border: 1px solid var(--semi-oscuro);  
 }
 
 .rrss {
