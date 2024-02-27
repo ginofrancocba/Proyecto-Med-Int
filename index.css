@@ -30,7 +30,7 @@
   } 
 
   .fondo {
-    width: 99vw;
+    width: 100vw;
   
   }
 
@@ -43,7 +43,7 @@
     /* justify-content: center; */
     text-align: center;
     align-items: center;
-    width: 99vw;
+    width: 100vw;
     height: 30vh;
     background-color: var(--grey-header);
     box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
@@ -102,6 +102,7 @@
     color: var(--semi-oscuro);
     border-bottom: 2px solid var(--semi-oscuro); 
     background-color: var(--salmon);
+    box-shadow: var(--semi-oscuro) 0px 0px 95px, var(--semi-oscuro) 0px 4px 15px ;
 }
 
 .front-img {
@@ -132,7 +133,7 @@
   
 .page-footer  {
   display: flex;
-  width: 99vw;
+  width: 100vw;
   justify-content: center;
   height: 20%; 
   background-color: var(--salmon-footer);
