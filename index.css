@@ -149,11 +149,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color:var(--grey-button);
   width: 8em;
   text-decoration: none;
-  margin: 3% 3% 0% 44%;
+  margin: 0 auto;
+  margin-top: 2%;
   padding: 1%;
   border-radius: 3px;
   border: 0.5px solid var(--app-grey);  
@@ -306,12 +307,28 @@ a {
   border: 1px solid var(--azul-fran);
 }
 
+.map {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-iframe {
+  width: 40%;
+  height: 70%;
+  margin-left: 14%;
+  border-radius: 5px;
+  box-shadow: var(--semi-oscuro) 0px 2px 55px, var(--azul-hover) 0px 1px 8px;
+}
+
 .map-button {
   position: fixed; /* Esto hace que el elemento se mantenga en la misma posición */
   bottom: 30px; /* Esto define la distancia desde el borde inferior de la pantalla */
   right: 30px; /* Esto define la distancia desde el borde derecho de la pantalla */
   z-index: 1000; /* Esto hace que el elemento se muestre por encima de los demás */
-
 }
 
 .map-button img {
@@ -326,8 +343,4 @@ a {
   border: transparent;
   width: 41px; 
   height: 41px; 
-}
-
-#btn-google-maps img {
-  border: transparent;
 }
